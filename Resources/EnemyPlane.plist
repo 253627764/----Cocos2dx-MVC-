@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<array>
+		<dict>
+			<key>name</key>
+			<string>smallestPlane.png</string>
+			<key>type</key>
+			<string>emengyPlane</string>
+			<key>hp</key>
+			<string>600</string>
+			<key>money</key>
+			<string>100</string>
+			<key>score</key>
+			<string>0</string>			
+			<key>aircraftTime</key>
+			<string>1</string>						
+			<key>startPositionX</key>
+			<string>320</string>
+			<key>startPositionY</key>
+			<string>1000</string>
+			<key>move</key>
+			<string>1</string>
+			<key>batterys</key>
+			<array>
+				<dict>
+					<key>name</key>
+					<string>battery_2.png</string>
+					<key>type</key>
+					<string>enemyBattery</string>
+					<key>scale</key>
+					<string>1</string>
+					<key>offsetX</key>
+					<string>70</string>
+					<key>offsetY</key>
+					<string>80</string>			
+					<key>emitMode</key>
+					<string>2</string>				
+					<key>magazine</key>
+					<dict>
+						<key>name</key>
+						<string>bt1.png</string>
+						<key>type</key>		
+						<string>OvalBullteA</string>	
+						<key>attack</key>
+						<string>20</string>										
+						<key>speed</key>
+						<string>1</string>			
+						<key>accelerated</key>
+						<string>0</string>										
+						<key>direct</key>
+						<string>1</string>									
+						<key>count</key>
+						<string>50</string>		
+					</dict>
+				</dict>
+			</array>
+		</dict>
+	</array>
+</array>
+</plist>

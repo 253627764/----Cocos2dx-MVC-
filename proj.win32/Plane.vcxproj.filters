@@ -1,0 +1,168 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="win32">
+      <UniqueIdentifier>{84a8ebd7-7cf0-47f6-b75e-d441df67da40}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes">
+      <UniqueIdentifier>{bb6c862e-70e9-49d9-81b7-3829a6f50471}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\System">
+      <UniqueIdentifier>{8b86e42f-c603-4d80-9a4b-6e43171a06f7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\Extension">
+      <UniqueIdentifier>{530b46e2-a6b8-4b01-8794-4b774f4f44cf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\Bullte">
+      <UniqueIdentifier>{6b8ba004-7b8e-4df2-b56f-a6cd04fb814e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\Battery">
+      <UniqueIdentifier>{72497c29-f03e-47af-ae6e-80fe64142ac2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\Parts">
+      <UniqueIdentifier>{2aff4e56-00c6-4c53-b87d-8a2bf55741ba}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\Plane">
+      <UniqueIdentifier>{fe4f8904-ea72-475d-912d-d01fb957eae2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\Base">
+      <UniqueIdentifier>{561c8fae-1402-45ca-9070-b18d245e8b9f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\Layer">
+      <UniqueIdentifier>{b33a0e5a-a0c4-4ddb-822e-678284b40f23}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\Test">
+      <UniqueIdentifier>{dea4e28d-4565-4b0e-a4f3-314a8ec5fd1f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\Reward">
+      <UniqueIdentifier>{d8dca08c-1910-4009-9cc5-8c679f0aee33}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>win32</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\system\AppConfig.cpp">
+      <Filter>Classes\System</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\AppDelegate.cpp">
+      <Filter>Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\battery\Battery.cpp">
+      <Filter>Classes\Battery</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\parts\Mp.cpp">
+      <Filter>Classes\Parts</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\bullte\Bullte.cpp">
+      <Filter>Classes\Bullte</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\extension\LoopParallaxNode.cpp">
+      <Filter>Classes\Extension</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\extension\ActionInterval.cpp">
+      <Filter>Classes\Extension</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\system\Conv.cpp">
+      <Filter>Classes\System</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\plane\Plane.cpp">
+      <Filter>Classes\Plane</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\base\GameObject.cpp">
+      <Filter>Classes\Base</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\base\HpObject.cpp">
+      <Filter>Classes\Base</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Test\TestLayer.cpp">
+      <Filter>Classes\Test</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Layer\EnemyPlaneLayer.cpp">
+      <Filter>Classes\Layer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Layer\GameWorldLayer.cpp">
+      <Filter>Classes\Layer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Layer\UserPlaneLayer.cpp">
+      <Filter>Classes\Layer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Layer\PartsLayer.cpp">
+      <Filter>Classes\Layer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Layer\MapLayer.cpp">
+      <Filter>Classes\Layer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Base\EmitObject.cpp">
+      <Filter>Classes\Base</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Base\ParticleBatchNodeCache.cpp">
+      <Filter>Classes\Base</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="main.h">
+      <Filter>win32</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\system\AppConfig.h">
+      <Filter>Classes\System</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\AppDelegate.h">
+      <Filter>Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\battery\Battery.h">
+      <Filter>Classes\Battery</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\parts\Mp.h">
+      <Filter>Classes\Parts</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\bullte\Bullte.h">
+      <Filter>Classes\Bullte</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\extension\LoopParallaxNode.h">
+      <Filter>Classes\Extension</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\extension\ActionInterval.h">
+      <Filter>Classes\Extension</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\system\GameDefine.h">
+      <Filter>Classes\System</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\system\Conv.h">
+      <Filter>Classes\System</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\plane\Plane.h">
+      <Filter>Classes\Plane</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\base\GameObject.h">
+      <Filter>Classes\Base</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\base\HpObject.h">
+      <Filter>Classes\Base</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Test\TestLayer.h">
+      <Filter>Classes\Test</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Layer\EnemyPlaneLayer.h">
+      <Filter>Classes\Layer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Layer\GameWorldLayer.h">
+      <Filter>Classes\Layer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Layer\UserPlaneLayer.h">
+      <Filter>Classes\Layer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Layer\PartsLayer.h">
+      <Filter>Classes\Layer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Layer\MapLayer.h">
+      <Filter>Classes\Layer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Base\EmitObject.h">
+      <Filter>Classes\Base</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Base\ParticleBatchNodeCache.h">
+      <Filter>Classes\Base</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

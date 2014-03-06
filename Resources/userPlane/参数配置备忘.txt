@@ -1,0 +1,44 @@
+用户飞机标准炮塔重点参数配置
+			<key>name</key>
+			<string>userBattery.png</string>
+			<key>batteryType</key>
+			<string>0</string>
+			<key>emitFrequency</key>
+			<string>10</string>
+			<key>offset</key>
+			<string>{37,80}</string>
+用户飞机旋转炮塔重点参数配置
+			<key>name</key>
+			<string>userBattery.png</string>
+			<key>batteryType</key>
+			<string>1</string>
+			<key>emitFrequency</key>
+			<string>10</string>
+			<key>offset</key>
+			<string>{0,5}</string>
+			<key>clockWise</key>
+			<string>true</string>
+			<key>radius</key>
+			<string>20</string>
+
+直线飞行行为参数配置
+					<key>flyActionType</key>
+					<string>0</string>
+SIN飞行行为参数配置
+					<key>flyActionType</key>
+					<string>1</string>
+					<key>radius</key>
+					<string>-40</string>
+					<key>stepOffset</key>
+					<string>{0,200}</string>
+reward 奖励
+
+coin
+blood
+
+cure 治疗
+money 金钱
+powerPulse  能量脉冲
+protect 保护
+thunder 打雷
+weaponLevelup 武器升级
